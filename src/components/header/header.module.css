@@ -1,0 +1,95 @@
+.Header {
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+  background-color: #ffffff;
+}
+
+.headerWrapper {
+  max-width: var(--tamanho-maximo);
+  margin: 0 auto;
+  padding: 16px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ulWrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.navLi .linksMenuLi {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-gray);
+}
+
+.ulWrapper .navLi .linksMenuLi:hover {
+  color: var(--color-red);
+}
+
+.ulWrapper .buyButton {
+  background-color: var(--color-red);
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-white);
+  border-radius: 20px;
+}
+
+.ulWrapper .buyButton:hover {
+  color: var(--color-white);
+  background: var(--color-red);
+}
+
+#buttonMobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  /* / Menu mobile */
+  .navMenu {
+    display: none;
+  }
+
+  #menuIcons {
+    width: 20px;
+    height: 20px;
+  }
+
+  #buttonMobile {
+    display: block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+  }
+
+  .active .navMenu {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+
+  .ulWrappe .navLi {
+    padding: 1rem;
+  }
+  .active .ulWrapper {
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 1rem;
+  }
+  /* // Menu mobile */
+}
