@@ -1,0 +1,25 @@
+.gridWrapper {
+    padding-top: 32px;
+    margin: 0 auto;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  
+  .gridWrapper .gridContainer {
+    background: var(--bg-color);
+    padding: 16px;
+    border-radius: 10px;
+  }
+  
+  .gridWrapper .gridContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--bg-color);
+    padding: 16px;
+    border-radius: 10px;
+    flex: 1;
+  }
+  

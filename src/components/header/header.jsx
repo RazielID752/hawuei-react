@@ -38,7 +38,7 @@ const Header = () => {
                 </a>
               </li>
             ))}
-            <li className={style.navLi}>
+            <li className={style.navLiButton}>
               <a className={style.buyButton} href="">
                 Comprar
               </a>

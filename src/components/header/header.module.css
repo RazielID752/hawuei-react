@@ -30,6 +30,26 @@
   color: var(--color-red);
 }
 
+.navMenu .ulWrapper .navLi{
+  position: relative;
+}
+
+.navMenu .ulWrapper .navLi::after{
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  background: var(--color-red);
+  left: 0;
+  bottom: -10px;
+  transition: .5s ease-in-out;
+}
+
+.navMenu .ulWrapper .navLi:hover::after{
+  width: 100%;
+  transition: .5s ease-in;
+}
+
 .ulWrapper .buyButton {
   background-color: var(--color-red);
   padding: 8px 14px;

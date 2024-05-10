@@ -1,9 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, EffectFade, Pagination, Navigation,  A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
-import { Autoplay, EffectFade, Pagination, Navigation,  A11y } from 'swiper/modules';
 import style from "../swipper/swipper.module.css";
 import Slide1 from "../../assets/img/Frame 1.png";
 import Slide2 from "../../assets/img/Frame 2.png";
@@ -12,6 +12,7 @@ import Video1 from "../../assets/img/huawei-freebuds-pro-3-product-video.mp4";
 
 
 const Swipper = () => {
+  
   return (
     <section className={style.swipper}>
       <div className={style.swipperWrapper}>

@@ -2,9 +2,11 @@
 :root {
   --tamanho-maximo: 1280px;
   --bg-color: #ffffff;
+  --bg-color-2: #f7f7f7;
   --color-white: #fff;
   --color-black: #000;
   --color-red: #ce0e2d;
+  --color-green: #D7E6D1;
   --color-gray: #323232;
 }
 
@@ -15,8 +17,9 @@
 }
 
 body {
-  background: var(--bg-color);
+  background: var(--bg-color-2);
   font-family: "Inter", arial;
+  height: 1500px;
 }
 
 a {

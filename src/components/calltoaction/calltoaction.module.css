@@ -1,0 +1,21 @@
+.CalltoactionWrapper{
+    border-radius: 10px;
+    padding: 0 32px;
+    background-color: var(--color-green);
+    max-width: var(--tamanho-maximo);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.CalltoactionWrapper .actioTitle span{
+    font-weight: 200;
+}
+.CalltoactionWrapper .actioTitle {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.containerButton{
+    padding-top: 1rem;
+}
