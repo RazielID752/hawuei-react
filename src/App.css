@@ -21,6 +21,9 @@ body {
   font-family: "Inter", arial;
   height: 1500px;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 a {
   text-decoration: none;

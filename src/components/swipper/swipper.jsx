@@ -14,7 +14,7 @@ import Video1 from "../../assets/img/huawei-freebuds-pro-3-product-video.mp4";
 const Swipper = () => {
   
   return (
-    <section className={style.swipper}>
+    <section className={style.swipper} id="carrosell-home">
       <div className={style.swipperWrapper}>
       <Swiper 
       spaceBetween={20}

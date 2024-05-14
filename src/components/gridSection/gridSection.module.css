@@ -1,25 +1,77 @@
+.textGrid{
+    padding-top: 32px;
+    max-width: var(--tamanho-maximo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  0 auto;
+}
+
+.textGrid h2{
+    font-size: 50px;
+}
+
+.textGrid span{
+    font-size: 16px;
+    color: var(--color-red);
+}
+
 .gridWrapper {
     padding-top: 32px;
     margin: 0 auto;
     max-width: 1280px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 32px;
+    gap: 16px;
+    margin-bottom: 32px;
   }
   
+  .gridContent h2{
+    font-weight: 600;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .gridContent span{
+    font-weight: 300;
+    font-size: 24px;
+  }
+
   .gridWrapper .gridContainer {
     background: var(--bg-color);
     padding: 16px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+   .gridContainer .gridContent p{
+    padding-bottom: 16px;
+  }
+
+ .Ultramais{
+    padding-top: 24px;
+  }
+
+  .gridWrapper .gridContainer:nth-child(2) {
+    margin-top: 16px;
   }
   
   .gridWrapper .gridContainer2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     background: var(--bg-color);
     padding: 16px;
-    border-radius: 10px;
-    flex: 1;
+    border-radius: 10px;;
+  }
+
+  .gridWrapper .gridContainer2:nth-child(1) {
+    margin-bottom: 16px;
   }
   

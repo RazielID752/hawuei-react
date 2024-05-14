@@ -7,8 +7,8 @@ import IconClose from "../../assets/img/menu-closer.svg";
 const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
   const links = [
-    { name: "Inicio", link: "/" },
-    { name: "Novos celulares", link: "/" },
+    { name: "Inicio", link: "#carrosell-home" },
+    { name: "Novos celulares", link: "#novos-projetos" },
     { name: "Fones", link: "/" },
     { name: "Hauwei Watch GT3", link: "/" },
     { name: "Contato", link: "/" },
