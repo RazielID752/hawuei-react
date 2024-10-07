@@ -29,8 +29,8 @@ const Swipper = () => {
       }}
       navigation
       modules={[Autoplay, EffectFade, Pagination, Navigation, A11y]}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      // onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log('slide change')}
       className="mySwiper">
         <SwiperSlide>
           <img src={Slide2} alt=""/>

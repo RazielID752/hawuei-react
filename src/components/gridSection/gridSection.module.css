@@ -74,4 +74,10 @@
   .gridWrapper .gridContainer2:nth-child(1) {
     margin-bottom: 16px;
   }
+
+  @media(max-width:600px){
+    .gridWrapper{
+      grid-template-columns: 1fr;
+    }
+  }
   

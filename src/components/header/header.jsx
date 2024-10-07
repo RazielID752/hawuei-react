@@ -3,6 +3,7 @@ import style from "../header/header.module.css";
 import LogoMenu from "../../assets/img/logo.svg";
 import IconBars from "../../assets/img/menu-togle.svg";
 import IconClose from "../../assets/img/menu-closer.svg";
+import { Search } from "lucide-react";
 
 const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
@@ -11,7 +12,6 @@ const Header = () => {
     { name: "Novos celulares", link: "#novos-projetos" },
     { name: "Fones", link: "/" },
     { name: "Hauwei Watch GT3", link: "/" },
-    { name: "Contato", link: "/" },
   ];
 
   const toggleMenu = () => {
@@ -27,7 +27,11 @@ const Header = () => {
           </a>
         </div>
         <button id={style.buttonMobile} onClick={toggleMenu}>
-          <img src={menuActive ? IconClose : IconBars} id={style.menuIcons} alt="Icon Menu" />
+          <img
+            src={menuActive ? IconClose : IconBars}
+            id={style.menuIcons}
+            alt="Icon Menu"
+          />
         </button>
         <nav className={style.navMenu}>
           <ul className={style.ulWrapper}>
@@ -38,6 +42,11 @@ const Header = () => {
                 </a>
               </li>
             ))}
+            <li className={style.navLiButton}>
+              <a href="">
+                <Search />
+              </a>
+            </li>
             <li className={style.navLiButton}>
               <a className={style.buyButton} href="">
                 Comprar
