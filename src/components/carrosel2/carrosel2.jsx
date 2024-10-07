@@ -45,7 +45,7 @@ const Carrosel2 = () => {
             slidesPerView: 3, // exibir 3 slides em telas com 768px ou mais
           },
           1024: {
-            slidesPerView: 4, // exibir 4 slides em telas com 1024px ou mais
+            slidesPerView: 2, // exibir 4 slides em telas com 1024px ou mais
           },
         }}
       >
