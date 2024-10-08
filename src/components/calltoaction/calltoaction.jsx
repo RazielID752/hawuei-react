@@ -22,7 +22,7 @@ const Calltoaction = () => {
             <Button links="/">Comprar</Button>
           </div>
         </div>
-        <div>
+        <div className={style.imgContainerMove}>
           <img src={ultra70} alt="" />
         </div>
       </div>

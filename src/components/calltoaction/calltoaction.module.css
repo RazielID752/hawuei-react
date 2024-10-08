@@ -24,6 +24,15 @@
   padding-top: 1rem;
 }
 
+.imgContainerMove{
+    transition: 0.3s ease-in-out;
+}
+
+.imgContainerMove:hover{
+    transform: translateX(20px);
+    transition: 0.3s ease-in;
+}
+
 @media (max-width: 600px) {
   .CalltoactionWrapper {
     margin: 1rem;

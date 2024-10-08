@@ -62,6 +62,7 @@
 
 .ulWrapper .buyButton:hover {
   color: var(--color-white);
+  opacity: 0.8;
   background: var(--color-red);
 }
 

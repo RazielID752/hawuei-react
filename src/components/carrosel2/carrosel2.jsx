@@ -59,7 +59,7 @@ const Carrosel2 = () => {
           <img src={card1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={card1} alt="" />
+          <img src={card2} alt="" />
         </SwiperSlide>
       </Swiper>
     </section>

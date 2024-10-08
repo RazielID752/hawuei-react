@@ -5,6 +5,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import style from "../swipper/swipper.module.css";
+import Slide0 from "../../assets/img/card-new.png";
 import Slide1 from "../../assets/img/Frame 1.png";
 import Slide2 from "../../assets/img/Frame 2.png";
 import Slide3 from "../../assets/img/Frame 3.png";
@@ -32,6 +33,9 @@ const Swipper = () => {
       // onSwiper={(swiper) => console.log(swiper)}
       // onSlideChange={() => console.log('slide change')}
       className="mySwiper">
+        <SwiperSlide>
+          <img src={Slide0} alt=""/>
+        </SwiperSlide>
         <SwiperSlide>
           <img src={Slide2} alt=""/>
         </SwiperSlide>
